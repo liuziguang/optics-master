@@ -1,0 +1,39 @@
+# 数据与产物
+*.zip
+*.h5
+*.hdf5
+*.tif
+*.tiff
+*.raw
+*_raw/
+data/raw/
+lab/*/raw/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.mypy_cache/
+.ruff_cache/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# 临时
+.tmp/
+tmp/
+*.log
+
+# 密钥类
+*.key
+*.pem
+
+# 私人信息（不进入公开仓库）
+private/
