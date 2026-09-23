@@ -18,6 +18,9 @@ venv/
 .mypy_cache/
 .ruff_cache/
 
+# 仿真的产物图与中间数据
+sim/*/out/
+
 # 编辑器 / 系统
 .vscode/
 .idea/
