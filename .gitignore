@@ -41,3 +41,7 @@ private/
 # 本地书库：受版权保护的书籍与论文，只在本机使用，永不推送
 library/*
 !library/README.md
+
+# 收件箱：截图等原始素材，只在本机保存，永不推送
+inbox/*
+!inbox/README.md
