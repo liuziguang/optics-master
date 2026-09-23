@@ -79,9 +79,9 @@
 
 ## D. 环境与装备（4 张）
 
-- [ ] **C17**【机】 建好仿真环境：在 `sim/` 下 `python -m venv .venv`，
-  装 `numpy` 与 `matplotlib`，跑通两个 import。
-  （**编程不是本项目的学习目标**，这里只是把工具装好）
+- [x] **C17**【机】 仿真环境已建好（2026-09-23）：`sim/.venv`（Python 3.14.6）+
+  numpy 2.5.3 / matplotlib 3.11.2 / scipy 1.18.1 / pandas 3.0.6；
+  import 与中文标注均自检通过。见 `../../sim/README.md`、`../../sim/requirements.txt`、`../../sim/matplotlibrc`
 - [ ] **C18**【机】 画一条 `sin(x)` 和一条 `Re(e^(ix))`，**确认两条曲线完全重合**。
   这是"复指数就是波"的第一手经验，比读十页书管用。
 - [ ] **C19**【机】 用 numpy 画两列同频波的叠加：把相位差从 0 扫到 2π，

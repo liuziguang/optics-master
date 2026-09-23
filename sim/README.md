@@ -8,12 +8,34 @@
 
 ## 环境
 
+> **状态：已建好（2026-09-23）。** 下面是重建步骤，不是待办。
+
 ```powershell
 cd D:\Optics_Master\sim
 python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install numpy scipy matplotlib pandas jupyterlab
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
+
+**已装版本**（Python 3.14.6 / venv）：
+
+| 包 | 版本 |
+| --- | --- |
+| numpy | 2.5.3 |
+| matplotlib | 3.11.2 |
+| scipy | 1.18.1 |
+| pandas | 3.0.6 |
+
+**两个实测踩过的坑**
+
+1. **不要用清华镜像装。** 2026-09 实测 `pypi.tuna.tsinghua.edu.cn` 上还没有
+   Python 3.14 的 wheel，会报 `No matching distribution found`；
+   用 PyPI 官方源（默认）就能直接下到 cp314 的 wheel。
+2. **不要用 `Activate.ps1`。** PowerShell 的脚本执行策略会拦它，
+   直接用 `.\.venv\Scripts\python.exe` 调用更省事，也避免污染当前会话。
+
+**中文标注已经配好**：`sim/matplotlibrc` 里设了 `Microsoft YaHei` 与
+`axes.unicode_minus: False`，从本目录运行脚本时图上可以直接写中文，不会出方框。
+（`axes.unicode_minus` 那条是关键：默认的 Unicode 减号会让中文标签里的负号变成方框。）
 
 ## 库的选择（按需装，不要一次全装）
 

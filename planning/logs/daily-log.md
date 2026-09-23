@@ -82,6 +82,12 @@ S-1 补课期定为 8 周；建立监督机制与每日 21:00 自动提醒；完
 每条附"本项目对应"与"缺口"两栏，并维护累计统计。收录流程与命名约定已写进
 `inbox/README.md`。
 
+再：完成 **C17（本周第一张打勾的卡）**——在 `sim/` 下建好 Python 3.14.6 虚拟环境，
+装 numpy 2.5.3 / matplotlib 3.11.2 / scipy 1.18.1 / pandas 3.0.6，
+import 自检与中文标注自检均通过；产出 `sim/requirements.txt` 与 `sim/matplotlibrc`
+（后者固定微软雅黑与 `axes.unicode_minus: False`，避免中文标签出方框），
+并把两个实测坑（清华镜像没有 3.14 的 wheel、PowerShell 执行策略拦 Activate.ps1）写进 `sim/README.md`。
+
 **投入时长**：
 
 **遇到的问题**：

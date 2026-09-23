@@ -1,0 +1,13 @@
+# 放在 sim/ 下，从本目录运行脚本时自动生效
+# 作用：让图上直接能写中文，不用每次手动设字体
+
+font.family: sans-serif
+font.sans-serif: Microsoft YaHei, SimHei, DejaVu Sans
+
+# 关键：默认用 Unicode 减号会让中文标签里的负号变成方框
+axes.unicode_minus: False
+
+figure.dpi: 120
+savefig.dpi: 150
+axes.grid: True
+grid.alpha: 0.3
