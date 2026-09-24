@@ -48,3 +48,8 @@ library/*
 # 收件箱：截图等原始素材，只在本机保存，永不推送
 inbox/*
 !inbox/README.md
+
+# Obsidian 的界面状态：每次动窗口都会变，不进仓库
+# （app.json / appearance.json / core-plugins.json 这些设置文件保留跟踪）
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
