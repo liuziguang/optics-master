@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "5542e92e40b74cf1",
+    "type": "split",
+    "children": [
+      {
+        "id": "5fdbcfe3d84809cd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d917a33747fdb6bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "planning/weekly/W01-cards.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "W01-cards"
+            }
+          },
+          {
+            "id": "468af447200ac80f",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "library/00-数学与工具/Mathematical Methods in the Physical Sciences by Mary L. Boas (z-lib.org).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Mathematical Methods in the Physical Sciences by Mary L. Boas (z-lib.org)"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6681862ea8779e40",
+    "type": "split",
+    "children": [
+      {
+        "id": "a217a86df6138c49",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f668708377c8ac4b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "1e0bda4451a620f3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "cc23f6728596a62b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "19a4f701f9d3c404",
+    "type": "split",
+    "children": [
+      {
+        "id": "ff40c21ea4b163f9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "16015b4d8163a554",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "library/00-数学与工具/Mathematical Methods in the Physical Sciences by Mary L. Boas (z-lib.org).pdf",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "bb1cbc5eff855d51",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "library/00-数学与工具/Mathematical Methods in the Physical Sciences by Mary L. Boas (z-lib.org).pdf",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "98aaf4d22d88cca6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f047f416f9532d23",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "89501d9444fdfa9c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "library/00-数学与工具/Mathematical Methods in the Physical Sciences by Mary L. Boas (z-lib.org).pdf",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "468af447200ac80f",
+  "lastOpenFiles": [
+    "planning/weekly/W01-cards.md",
+    "library/00-数学与工具/Mathematical Methods in the Physical Sciences by Mary L. Boas (z-lib.org).pdf",
+    "notes/lessons/S-1-W01-复数与相位-骨架.md",
+    "notes/lessons/S-1-W01-复数与相位.md",
+    "notes/atoms/干涉条纹漂移的主要来源是机械振动与温度变化.md"
+  ]
+}
