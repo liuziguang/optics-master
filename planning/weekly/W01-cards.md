@@ -82,7 +82,9 @@
 - [x] **C17**【机】 仿真环境已建好（2026-09-23）：`sim/.venv`（Python 3.14.6）+
   numpy 2.5.3 / matplotlib 3.11.2 / scipy 1.18.1 / pandas 3.0.6；
   import 与中文标注均自检通过。见 `../../sim/README.md`、`../../sim/requirements.txt`、`../../sim/matplotlibrc`
-- [ ] **C18**【机】 运行 `sim/001-complex-exponential/main.py`，看图。
+- [x] **C18**【机】 运行 `sim/001-complex-exponential/main.py`，看图。（2026-09-25 完成）
+  回答：① `Re` 取的是实部，而 `e^(ix)` 的实部就是 `cos(x)`；
+  ② 两条线相差 π/2。**这是本项目第一张真正完成的学习卡。**
   脚本会画两组曲线：**`cos(x)` 与 `Re(e^(ix))` 完全重合**（这一组是真的重合，差值为 0），
   以及 `sin(x)` 与 `Re(e^(ix))` **不重合**（差 π/2）。
   看完回答脚本最后打印的两个问题——那两个问题才是这张卡的内容。
